@@ -1,1 +1,3 @@
-File created on 2026-11-18
+class Solution:
+    def minChanges(self, s: str) -> int:
+        return sum(a != b for a, b in batched(s, 2))
