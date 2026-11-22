@@ -1,1 +1,10 @@
-File created on 2026-11-22
+class Solution(object):
+    def checkString(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if 'ba' in s:
+            return False
+        else:
+            return True
